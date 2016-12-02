@@ -22,10 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="practice_parent" />
+        <module name="multiple_thread" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="multiple_thread" target="1.5" />
       <module name="practice_parent" target="1.5" />
     </bytecodeTargetLevel>
   </component>
