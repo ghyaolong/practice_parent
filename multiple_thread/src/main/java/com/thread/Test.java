@@ -5,6 +5,8 @@ package com.thread;
  */
 public class Test {
     public static void main(String[] args) {
-        System.out.println("测试多线程");
+        for(int i=0; i< 10000; i++){
+            System.out.print("good!");
+        }
     }
 }
